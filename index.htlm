@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Entre Linhas | Contos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      background: #171514;
+      color: #f5eee6;
+      text-align: center;
+    }
+
+    header {
+      padding: 45px 20px;
+      background: #29211e;
+    }
+
+    h1 {
+      color: #d9b58c;
+      font-size: 36px;
+    }
+
+    main {
+      max-width: 650px;
+      margin: 50px auto;
+      padding: 20px;
+    }
+
+    .conto {
+      padding: 25px;
+      border: 1px solid #80634d;
+      border-radius: 12px;
+      margin-top: 25px;
+    }
+
+    button {
+      background: #d9b58c;
+      color: #171514;
+      border: none;
+      padding: 12px 22px;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+
+    footer {
+      padding: 25px;
+      color: #c2b5a8;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Entre Linhas</h1>
+    <p>Histórias que despertam a imaginação.</p>
+  </header>
+
+  <main>
+    <h2>Bem-vindo ao nosso universo</h2>
+    <p>Algumas histórias começam com um olhar.
+    Outras, com um segredo.</p>
+
+    <section class="conto">
+      <h2>Em breve: nosso primeiro conto</h2>
+      <p>Uma história esperando para ser descoberta.</p>
+      <button onclick="alert('Nosso primeiro conto chegará em breve!')">
+        Descobrir
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Entre Linhas</p>
+  </footer>
+</body>
+</html>
+
+        
